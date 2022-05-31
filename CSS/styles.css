@@ -57,7 +57,7 @@ img {
 .head-bottom {
   border-bottom-width: 1px;
   border-bottom-style: solid;
-  border-bottom-color: var(--border);
+  border-bottom-color: #ececec;
 }
 
 .section {
@@ -162,7 +162,7 @@ img {
 .hero {
   background-color: var(--background-footer);
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -322,10 +322,10 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   border: 1px solid var(--border);
-  border-radius: 0px 0px 4px 4px;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .padding-team .item:nth-child(4n) {
@@ -381,9 +381,9 @@ img {
 }
 
 .portborder {
-  border-right: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  border-left: 1px solid var(--border);
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 
   padding: 20px 24px;
 }
